@@ -1,7 +1,7 @@
 # Installing Streamlit
 
 #!pip install streamlit
-!pip install sklearn
+!pip install scikit-learn
 
 # Importing
 
