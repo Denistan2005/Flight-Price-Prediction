@@ -13,7 +13,7 @@ from datetime import date
 
 # Loading the Model
 
-with open("best_model.pkl","rb") as file:
+with open("Model/best_model.pkl","rb") as file:
   best_model=pickle.load(file)
   
 # Styling
