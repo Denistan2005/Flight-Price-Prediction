@@ -9,12 +9,11 @@ import pickle
 import pandas as pd
 import numpy as np
 import time
-import matplotlib.pyplot as plt
 from datetime import date
 
 # Loading the Model
 
-with open("best_model.pkl","rb") as file:
+with open("Flight-Price-Predicton/Model/best_model.pkl","rb") as file:
   best_model=pickle.load(file)
   
 # Styling
@@ -207,7 +206,7 @@ with col1:
 
 # Visualising
 
-df=pd.read_csv("Data_Train.csv")
+df=pd.read_csv("Flight-Price-Prediction/Data/Data_Train.csv")
 st.markdown("""
                       <center><h3 style="color:#white;margin-bottom: 0px;padding-bottom: 0px;"><br>You can Campare the Flight Price<br> among Different Airlines</h3></center><br><br>
                   """,unsafe_allow_html=True)
