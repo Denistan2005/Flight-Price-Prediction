@@ -25,15 +25,7 @@ st.markdown("""
                   margin-bottom: 0px;
                   padding-bottom: 0px;
               }
-              
-              h5
-              {
-                margin-top:15px;
-                padding-bottom: 10px;
-                margin-bottom:20px
-                font-size:20px;
-              }
-              
+                            
               .stSlider > div > div > div > div 
               {
                    background: #00ADB5;
