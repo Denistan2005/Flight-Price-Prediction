@@ -118,12 +118,12 @@ def input():
     column1,column2=st.columns(2)
     with column1:
       st.markdown("""
-                  <h5 style="color:#00ADB5;">Adults</h4>
+                  <h4 style="color:#00ADB5;">Adults</h4>
                 """,unsafe_allow_html=True)
       Adults=st.number_input("",min_value=0,max_value=700,step=1)
     with column2:
       st.markdown("""
-                  <h5 style="color:#00ADB5;">Children</h4>
+                  <h4 style="color:#00ADB5;">Children</h4>
                 """,unsafe_allow_html=True)
       Children=st.number_input("",min_value=0,max_value=600,step=1)
     
