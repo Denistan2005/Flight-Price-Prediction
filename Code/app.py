@@ -29,8 +29,8 @@ st.markdown("""
               h5
               {
                 margin-top:15px;
-                padding-bottom: 0px;
-                margin-bottom:15px
+                padding-bottom: 10px;
+                margin-bottom:20px
                 font-size:20px;
               }
               
