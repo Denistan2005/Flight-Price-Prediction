@@ -26,10 +26,11 @@ st.markdown("""
                   padding-bottom: 0px;
               }
               
-              h6
+              h5
               {
                 margin-top:15px;
                 padding-bottom: 0px;
+                margin-bottom:15px
                 font-size:20px;
               }
               
