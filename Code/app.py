@@ -164,7 +164,7 @@ with col1:
   st.markdown("""
                     <br>
                 """,unsafe_allow_html=True)
-  if st.button("Predict",icon="🛩️"):
+  if st.button("Predict Fare",icon="🛩️"):
     with col2:
       with st.spinner("Ready to Fly✈️"):
         time.sleep(2)
